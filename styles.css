@@ -1,0 +1,15 @@
+
+/* TailwindCSS custom styles for $RICH Boy Token website */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utility classes */
+@layer utilities {
+  .bg-rich-boy {
+    background-image: url('images/rich-boy-hero.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+}
